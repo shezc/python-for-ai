@@ -23,6 +23,11 @@ python-for-ai/
 └── utils/                 # 工具函数
     ├── __init__.py
     └── helpers.py
+├── notebooks/             # Jupyter Notebook 示例
+    ├── 01_basics.ipynb    # 基础语法示例
+    ├── 02_functions.ipynb  # 函数和类示例
+    └── 03_data_analysis.ipynb  # 数据分析示例
+├── JUPYTER_GUIDE.md      # Jupyter Notebook 使用指南
 ```
 
 ## 🚀 快速开始
@@ -57,9 +62,21 @@ pip install -r requirements.txt
 
 ### 4. 运行示例
 
+**方式 1: 运行 Python 脚本**
 ```bash
 python main.py
 ```
+
+**方式 2: 使用 Jupyter Notebook（推荐学习）**
+```bash
+# 启动 Jupyter Notebook
+jupyter notebook
+
+# 或使用 JupyterLab（更现代）
+jupyter lab
+```
+
+然后在浏览器中打开 `notebooks/` 目录下的示例 notebook。
 
 ## 📖 学习路径
 
@@ -93,9 +110,20 @@ python main.py
 ## 💡 学习建议
 
 1. **从基础开始**：先运行 `basics/` 目录下的示例
-2. **对比学习**：利用你的 Node.js 经验，对比两种语言的差异
-3. **实践为主**：修改示例代码，尝试不同的写法
-4. **查阅文档**：遇到问题查看 [Python 官方文档](https://docs.python.org/zh-cn/3/)
+2. **使用 Jupyter Notebook**：推荐使用 notebook 进行交互式学习（见 `JUPYTER_GUIDE.md`）
+3. **对比学习**：利用你的 Node.js 经验，对比两种语言的差异
+4. **实践为主**：修改示例代码，尝试不同的写法
+5. **查阅文档**：遇到问题查看 [Python 官方文档](https://docs.python.org/zh-cn/3/)
+
+## 📓 Jupyter Notebook
+
+项目包含 Jupyter Notebook 示例，适合交互式学习：
+
+- **01_basics.ipynb** - 基础语法示例
+- **02_functions.ipynb** - 函数和类示例  
+- **03_data_analysis.ipynb** - 数据分析示例
+
+详细使用指南请查看 [JUPYTER_GUIDE.md](JUPYTER_GUIDE.md)
 
 ## 📝 笔记
 

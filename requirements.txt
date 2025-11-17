@@ -1,12 +1,15 @@
-# Python 依赖管理文件（类似 Node.js 的 package.json）
-# 安装命令: pip install -r requirements.txt
+# Python dependencies (similar to Node.js package.json)
+# Install command: pip install -r requirements.txt
 
-# HTTP 请求库（类似 axios）
+# HTTP request library (similar to axios)
 requests>=2.31.0
 
-# 日期时间处理
+# Date and time processing
 python-dateutil>=2.8.2
 
-# 环境变量管理（类似 dotenv）
+# Environment variable management (similar to dotenv)
 python-dotenv>=1.0.0
 
+# Jupyter Notebook (interactive programming environment)
+jupyter>=1.0.0
+ipykernel>=6.25.0
