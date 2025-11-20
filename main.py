@@ -6,7 +6,7 @@ Python 使用 # 或三引号进行注释
 
 # 导入自定义模块
 from basics import variables, functions, classes
-from advanced import file_io, json_handling, async_example
+from advanced import file_io, json_handling, async_example, sentiment_analysis
 from utils import helpers
 
 def main():
@@ -47,6 +47,13 @@ def main():
     print("⚡ 异步编程示例（可选）")
     print("-" * 50)
     print("   提示: 运行 'python -m advanced.async_example' 查看异步示例")
+    print()
+    
+    # 情感分析示例（可选，需要安装 transformers）
+    print("🤖 情感分析示例（可选）")
+    print("-" * 50)
+    print("   提示: 运行 'python -m advanced.sentiment_analysis' 查看情感分析示例")
+    print("   或直接运行: python advanced/sentiment_analysis.py")
     print()
     
     print("=" * 50)

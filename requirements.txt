@@ -13,3 +13,7 @@ python-dotenv>=1.0.0
 # Jupyter Notebook (interactive programming environment)
 jupyter>=1.0.0
 ipykernel>=6.25.0
+
+# Transformers library for NLP tasks (sentiment analysis, etc.)
+transformers>=4.30.0
+torch>=2.0.0
